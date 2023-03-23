@@ -12,7 +12,7 @@ const { DB_HOST, DB_PORT, DB_NAME } = process.env;
 
 //ONLINE DB CONNECTION
 mongoose.connect(
-  "mongodb://mongo:vvXWTV5hECKm6vRsi7IW@containers-us-west-128.railway.app:6221/test"
+  "mongodb://mongo:sEjIztePdPTtR4x5zTcL@containers-us-west-197.railway.app:7663/test"
 );
 
 app.use(cors());
